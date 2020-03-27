@@ -64,19 +64,23 @@ public static void AramaYazdir(String Soru[][],int deger,String AramaJoker1,Stri
 	aramajokersecim=input.nextInt();
 	
 	if(aramajokersecim==1){
-		System.out.println(AramaJoker1+"'in cevabý "+Soru[deger][5]);
+		System.out.println(AramaJoker1+"'in cevabi "+Soru[deger][5]);
+		input.close();
 	}
 	else if(aramajokersecim==2){
-		System.out.println(AramaJoker2+"'in cevabý "+Soru[deger][5]);
+		System.out.println(AramaJoker2+"'in cevabi "+Soru[deger][5]);
+		input.close();
 	}
 	else if(aramajokersecim==3){
-		System.out.println(AramaJoker2+"'in cevabý "+Soru[deger][5]);
+		System.out.println(AramaJoker2+"'in cevabi "+Soru[deger][5]);
+		input.close();
 	}
 	else{
-		System.out.println("hatalý tuþlama yaptýnýz.");
+		System.out.println("hatali tuslama yaptiniz.");
+		input.close();
 		
 	}
-	
+	input.close();
 }
 	
 public static void YariYariyaYazdir(String Soru[][],int deger){

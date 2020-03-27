@@ -1,6 +1,6 @@
 
 public class Sor {
- public static void Sor(String Soru[][],int deger){
+ public static void SoruSor(String Soru[][],int deger){
 	 System.out.println(Soru[deger][0]);
 		System.out.println("A)"+Soru[deger][1]);
 		System.out.println("B)"+Soru[deger][2]);
